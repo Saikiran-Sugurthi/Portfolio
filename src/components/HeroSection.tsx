@@ -52,8 +52,8 @@ const HeroSection = () => {
             </Button>
             <Button variant="glow" size="lg" asChild>
               <a
-                href="/Sai_Kiran_Sugurthi-Resume.pdf"
-                download="Sai_Kiran_Sugurthi-Resume.pdf"
+                href="/Sai_Kiran_Sugurthi's_Resume.pdf"
+                download="Sai_Kiran_Sugurthi's_Resume.pdf"
               >
                 <Download className="mr-1 h-4 w-4" />
                 Download Resume
