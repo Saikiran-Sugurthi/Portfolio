@@ -50,15 +50,17 @@ const HeroSection = () => {
               View Projects
               <ArrowDown className="ml-1 h-4 w-4" />
             </Button>
-            <Button variant="glow" size="lg" asChild>
-              <a
-                href="/Sai_Kiran_Sugurthi's_Resume.pdf"
-                download="Sai_Kiran_Sugurthi's_Resume.pdf"
-              >
-                <Download className="mr-1 h-4 w-4" />
-                Download Resume
-              </a>
-            </Button>
+          <Button variant="glow" size="lg" asChild>
+  <a
+    href="https://drive.google.com/file/d/1TSBIzmUXscmpEbmPbYGiNJ9Ch06Oh_JY/view"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Download className="mr-1 h-4 w-4" />
+    View Resume
+  </a>
+</Button>
+
 
             <Button variant="hero-outline" size="lg" onClick={scrollToContact}>
               <Mail className="mr-1 h-4 w-4" />
